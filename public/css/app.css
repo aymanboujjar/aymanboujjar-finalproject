@@ -11894,4 +11894,50 @@ nav .right-nav .liste .span {
   color: white;
 }
 
+.second {
+  display: flex;
+  gap: 10vw;
+  background: rgb(255, 250, 243);
+  align-items: start;
+  padding: 25px;
+}
+.second .text {
+  padding-inline-end: 30px;
+}
+.second i {
+  color: rgb(255, 176, 59);
+}
+.second ul {
+  list-style: none;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+}
+.third .cards {
+  display: flex;
+  gap: 10vw;
+}
+.third .cards .div-third {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 5px 10px 18px rgba(16, 14, 14, 0.3176470588);
+  background: #fff;
+  width: 25vw;
+  padding: 20px;
+}
+.third .cards .div-third b {
+  color: #f5d854;
+}
+.third .cards .div-third:hover {
+  background: orange;
+}
+.third .cards .div-third:hover b {
+  color: white;
+}
+
 /*# sourceMappingURL=app.css.map */
