@@ -7564,20 +7564,16 @@ textarea.form-control-lg {
   position: sticky !important;
 }
 
-.top-10 {
-  top: 84% !important;
-}
-
 .top-25 {
-  top: 13.5% !important;
+  top: 12% !important;
 }
 
 .top-15 {
-  top: 65% !important;
+  top: 85% !important;
 }
 
 .top-11 {
-  top: 39.5% !important;
+  top: 40% !important;
 }
 
 .top-0 {
@@ -7592,20 +7588,16 @@ textarea.form-control-lg {
   top: 100% !important;
 }
 
-.bottom-10 {
-  bottom: 84% !important;
-}
-
 .bottom-25 {
-  bottom: 13.5% !important;
+  bottom: 12% !important;
 }
 
 .bottom-15 {
-  bottom: 65% !important;
+  bottom: 85% !important;
 }
 
 .bottom-11 {
-  bottom: 39.5% !important;
+  bottom: 40% !important;
 }
 
 .bottom-0 {
@@ -7620,20 +7612,16 @@ textarea.form-control-lg {
   bottom: 100% !important;
 }
 
-.start-10 {
-  left: 84% !important;
-}
-
 .start-25 {
-  left: 13.5% !important;
+  left: 12% !important;
 }
 
 .start-15 {
-  left: 65% !important;
+  left: 85% !important;
 }
 
 .start-11 {
-  left: 39.5% !important;
+  left: 40% !important;
 }
 
 .start-0 {
@@ -7648,20 +7636,16 @@ textarea.form-control-lg {
   left: 100% !important;
 }
 
-.end-10 {
-  right: 84% !important;
-}
-
 .end-25 {
-  right: 13.5% !important;
+  right: 12% !important;
 }
 
 .end-15 {
-  right: 65% !important;
+  right: 85% !important;
 }
 
 .end-11 {
-  right: 39.5% !important;
+  right: 40% !important;
 }
 
 .end-0 {
@@ -14064,9 +14048,6 @@ body {
   position: relative;
   height: 100vh;
 }
-.sixth img {
-  opacity: 1;
-}
 .sixth .carousel2 {
   display: flex;
   align-items: center;
@@ -14326,6 +14307,48 @@ strong::after {
 }
 .Eleventh button:hover {
   background: rgb(255, 160, 18);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+  background: #35322d;
+  color: white;
+  padding: 50px;
+}
+footer .h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer .h2 p {
+  font-style: italic;
+  padding-inline: 20vw;
+  font-size: medium;
+}
+footer .p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+}
+footer i {
+  background: rgba(91, 82, 66, 0.5803921569);
+  border-radius: 50%;
+  height: fit-content;
+  padding: 10px;
+  width: 40px;
+}
+footer i:hover {
+  background: #ffb03b;
+  color: #fff;
 }
 
 /*# sourceMappingURL=app.css.map */
