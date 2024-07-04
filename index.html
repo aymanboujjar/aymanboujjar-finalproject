@@ -12,13 +12,20 @@
 
         <div class="left-nav"><a href=""><h1>Delicious</h1></a></div>
             <div class="right-nav">
-    
+              <input type="checkbox" " name="check" id="check">
+              <label for="check">
+                <img src="./public/images/icon-menu.svg" alt="">
+              </label>
                 <ul class="liste">
+                  <label for="check" ">
+                    <img src="./public/images/icon-close.svg" alt="">
+                  </label>
+
                     <li><a href=""><span>home</span></a></li>
-                    <li><a href="">about</a></li>
+                    <li><a href="#second">about</a></li>
                     <li><a href="">menu</a></li>
                     <li><a href="">specials</a></li>
-                    <li><a href="">event</a></li>
+                    <li><a href="#sixth">event</a></li>
                     <li><a href="">chefs</a></li>
                     <li><a href="">gallery</a></li>
                     <li class="nav-item dropdown">
@@ -37,7 +44,7 @@
                 <button type="button">book a table</button>
             </div>
         </nav>
-    <section class="first">
+    <section  class="first" id="first">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -48,7 +55,7 @@
               <div class="carousel-item active ">
                 <img height="800" src="./public/images/slide-1.jpg" class="d-block w-100 " alt="...">
                 <div class="carousel-caption d-none d-md-block p-7  px-5 ">
-                  <h5 class=" p-5"> <span class=" text-color">Delicious</span> Restaurant</h5>
+                  <h1 class=" p-5"> <span class=" text-color">Delicious</span> Restaurant</h1>
                   <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
 
                     <div class="mainbtn">
@@ -62,7 +69,7 @@
               <div class="carousel-item  ">
                 <img height="800" src="./public/images/slide-2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block p-7  px-5">
-                  <h5 class=" p-5">  Lorem Ipsum Dolor</h5>
+                  <h1 class=" p-5">  Lorem Ipsum Dolor</h1>
                     <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                     <div class="mainbtn">
 
@@ -74,7 +81,7 @@
               <div class="carousel-item  ">
                 <img height="800" src="./public/images/slide-3.jpg" class="d-block w-100  " alt="...">
                 <div class="carousel-caption d-none d-md-block p-6  px-5">
-                  <h5 class=" p-5"> Sequi ea ut et est quaerat</h5>
+                  <h1 class=" p-5"> Sequi ea ut et est quaerat</h1>
                     <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                     <div class="mainbtn">
 
@@ -95,7 +102,7 @@
             </button>
           </div>
     </section>
-    <section class="second">
+    <section class="second" id="second">
         <video width="600" height="400" controls poster ="./public/images/about.jpg ">
             <source src="./public/video/COSTA RICA IN 4K 60fps HDR (ULTRA HD).mp4" type="video/mp4">
           </video>
@@ -113,7 +120,7 @@
                 <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         </div>
     </section>
-    <section class="third" >
+    <section class="third" id="third" >
         <h1>Why choose <span>Our Restaurant</span></h1>
         <div class="cards">
 
@@ -136,9 +143,9 @@
             </div>
        
     </section>
-    <section class="fourth"></section>
-    <section class="fifth"></section>
-    <section class="sixth">
+    <section class="fourth" id="fourth"></section>
+    <section class="fifth" id="fifth"></section>
+    <section class="sixth" id="sixth">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel2">
         
@@ -191,7 +198,271 @@
                 
             </div>
         </section>
-        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <section class="seventh" id="seventh">
+      <h1>Book a <span> Table</span></h1>
+      <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      <form action="">
+        <div class="form">
+
+          <input placeholder="Your Name" type="text">
+          <input placeholder="Your Email" type="email" name="" id="">
+          <input placeholder="Your Number" type="text">
+          <input placeholder="Date" type="date" name="" id="">
+          <input placeholder="Time" type="time" name="" id="">
+          
+          <input placeholder="# of people" type="number" name="" id="">
+        </div>
+      <textarea placeholder="Message" cols="100" rows="5" name="" id=""></textarea><br><br>
+        <button>Send Message</button>
+      </form>
+    </section>
+    <section class="eighth" id="eighth">
+      <h1>Some photos from <span>Our Restaurant</span></h1>
+      <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      <div class="galerie">
+        <div class="zoom-img"><img src="./public/images/gallery-1.jpg" alt="">
+        </div>
+        <div class="zoom-img"><img src="./public/images/gallery-2.jpg" alt="">
+        </div>
+        <div class="zoom-img"><img src="./public/images/gallery-3.jpg" alt="">
+        </div>
+        <div class="zoom-img"><img src="./public/images/gallery-4.jpg" alt="">
+        </div>
+        <div class="zoom-img"><img src="./public/images/gallery-5.jpg" alt="">
+        </div>
+        <div class="zoom-img"><img src="./public/images/gallery-6.jpg" alt="">
+        </div>
+        <div class="zoom-img"><img src="./public/images/gallery-7.jpg" alt="">
+        </div>
+        <div class="zoom-img"><img src="./public/images/gallery-8.jpg" alt="">
+        </div>
+       
+      </div>
+    </section>
+    <section class="Ninth d-flex align-items-center flex-column p-5 position-relative" id="Ninth">
+      <h1>Our Proffesional <span>Chefs</span></h1>
+      <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4 px-8 w-100 ">
+        <div class="col">
+          <img src="./public/images/chefs-1.jpg" class="card-img-top" alt="...">
+          <div class="card position-absolute top-10 start-25 px-9">
+            <div class="card-body d-flex flex-column align-items-center ">
+              <p class="card-title"> <i>Walter White</i> </p>
+              <p class="card-text"> Master Chef </p>
+              <div class="icons">
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <img src="./public/images/chefs-2.jpg" class="card-img-top" alt="...">
+          <div class="card position-absolute top-10 start-11 px-9">
+            <div class="card-body d-flex flex-column align-items-center ">
+              <p class="card-title"> Sarah Jhonson </p>
+              <p class="card-text"> Patissier </p>
+              <div class="icons">
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <div class="col ">
+          <img src="./public/images/chefs-3.jpg" class="card-img-top" alt="...">
+          <div  class="card position-absolute top-10 start-15 px-11  ">
+            <div class="card-body d-flex flex-column align-items-center ">
+              <p class="card-title"> William Anderson </p>
+              <p class="card-text"> Cook </p>
+              <div class="icons">
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <section class="tenth">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="goodman d-flex flex-column align-items-center gap-3">
+              <img src="./public/images/testimonials-1.jpg" alt="Avatar" class="avatar">
+              <div class="carousel">
+
+                <b>Saul Goodman</b>
+                <p>ceo and founder</p> 
+                <div class="icoun">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
+                </div>
+              <div class="carousel-caption d-none d-md-block">
+            </div>
+        
+      </div>
+          </div>
+          <div class="carousel-item">
+            <div class="goodman d-flex flex-column align-items-center gap-3">
+              <img src="./public/images/testimonials-2.jpg" alt="Avatar" class="avatar">
+              <div class="carousel">
+
+                <b>Sara Wilsson</b>
+                <p>Designer</p> 
+                <div class="icoun">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                  <p>
+
+
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa. </p>
+              </div>
+
+      </div>
+          
+         
+        </div>
+          <div class="carousel-item">
+            <div class="goodman d-flex flex-column align-items-center gap-3">
+              <img src="./public/images/testimonials-3.jpg" alt="Avatar" class="avatar">
+              <div class="carousel">
+
+                <b>Jena Karlis</b>
+                <p>Store Owner</p> 
+                <div class="icoun">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                  <p> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. </p>
+              </div>
+
+      </div>
+          
+         
+        </div>
+          <div class="carousel-item">
+            <div class="goodman d-flex flex-column align-items-center gap-3">
+              <img src="./public/images/testimonials-4.jpg" alt="Avatar" class="avatar">
+              <div class="carousel">
+
+                <b>Matt Brandon</b>
+                <p>Freelancer</p> 
+                <div class="icoun">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                  <p>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</p>
+              </div>
+
+      </div>
+          
+         
+        </div>
+          <div class="carousel-item">
+            <div class="goodman d-flex flex-column align-items-center gap-3">
+              <img src="./public/images/testimonials-5.jpg" alt="Avatar" class="avatar">
+              <div class="carousel">
+
+                <b>John Larson</b>
+                <p>Entrepreneur</p> 
+                <div class="icoun">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                  <p>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p>
+                </div>
+
+      </div>
+          
+         
+        </div>
+      </div>
+    </section>
+    <section class="Eleventh" id="Eleventh">
+      <h1><span>Contact</span>Us</h1>
+      <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24194.891715929247!2d-74.0061377!3d40.7100586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a231d296d87%3A0xbbd59b177cc92ab2!2sNYC%20Housing%20Preservation%20and%20Development!5e0!3m2!1sen!2sma!4v1720099744659!5m2!1sen!2sma" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+
+          <ul >
+            <li>
+              <i class="bi bi-geo-alt"></i>
+              <div class="contact">
+                <b>Location:</b>
+                <p>A108 Adam Street <br>
+                New York, NY 535022</p>
+              </div>
+            </li>
+            <li>
+          <i class="bi bi-clock"></i>
+          <div class="contact">
+            <b>Open Hours:</b>
+            <p>
+              Monday-Saturday: <br>
+              11:00 AM - 2300 PM</p>
+          </div>
+        </li>
+        <li>
+          <i class="bi bi-envelope"></i>
+          <div class="contact">
+            <b>Email:</b>
+            <p>info@example.com <br>
+              contact@example.com</p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-phone"></i>
+            <div class="contact">
+              <b>Call:</b>
+              <p>+1 5589 55488 51<br>
+                +1 5589 22475 14</p>
+              </div>
+            </li>
+            
+          </ul>
+          <form action="">
+            <div class="form">
+              
+              <input placeholder="Your Name" type="text">
+              <input placeholder="Your Email" type="email" name="" id="">
+              
+            </div>
+            <div class="input">
+
+              <input placeholder="Your Number" type="text">
+            </div>
+          <textarea placeholder="Message" cols="100" rows="5" name="" id=""></textarea><br><br>
+          <button>Send Message</button>
+        </form>
+      </div>    
+      </section>
+      
+        
+        
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>

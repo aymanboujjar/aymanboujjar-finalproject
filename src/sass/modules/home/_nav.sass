@@ -17,6 +17,8 @@ nav
     top: 0
     width: 100%
     z-index: 1111
+   
+    
 
     
     a
@@ -30,6 +32,12 @@ nav
         display: flex
         align-items: center
         gap: 2vw
+        input
+            display: none
+        label
+            display: none
+        .label
+            display: flex
        
         button
             background-color: rgb(246, 191, 108)
@@ -59,5 +67,44 @@ nav
                 color: rgb(169, 117, 42)
             .span
                 color: white
-
+@media (max-width: 433px)
+    nav
+        .right-nav
+            input
+                &:checked~.liste
+                    display: flex
+                &:checked+label
+                    display: none
+                    position: fixed
+                    left: 0
+                    top: 0
+                    
+                    
+            label
+                display: flex
+            .label
+                display: block        
+            .liste
+                display: none
+                flex-direction: column
+                position: fixed
+                top: 50px
+                left: 0vw
+                width: 95%
+                padding: 100px
+                margin-inline-start:  18px
+                
+                padding-bottom: 800px
+                align-items: flex-start
+                background-color: #fff
+                li
+                    a
+                        color: black
+                        
+                
+                
+            button
+                width: fit-content
+                
+       
             
