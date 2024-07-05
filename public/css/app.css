@@ -14363,12 +14363,12 @@ h6, .h6 {
     width: 95vw;
   }
 }
-.Ninth {
+.ninth {
   background-image: url(../images/chefs-bg.jpg);
   background-attachment: fixed;
   background-position: cover;
   background-size: 100%;
-  height: 105vh;
+  padding-bottom: 20vh;
 }
 
 .tenth {
