@@ -7564,7 +7564,7 @@ textarea.form-control-lg {
   position: sticky !important;
 }
 
-.top-25 {
+.top-2 {
   top: 12% !important;
 }
 
@@ -7573,7 +7573,7 @@ textarea.form-control-lg {
 }
 
 .top-11 {
-  top: 40% !important;
+  top: 85% !important;
 }
 
 .top-0 {
@@ -7588,7 +7588,7 @@ textarea.form-control-lg {
   top: 100% !important;
 }
 
-.bottom-25 {
+.bottom-2 {
   bottom: 12% !important;
 }
 
@@ -7597,7 +7597,7 @@ textarea.form-control-lg {
 }
 
 .bottom-11 {
-  bottom: 40% !important;
+  bottom: 85% !important;
 }
 
 .bottom-0 {
@@ -7612,7 +7612,7 @@ textarea.form-control-lg {
   bottom: 100% !important;
 }
 
-.start-25 {
+.start-2 {
   left: 12% !important;
 }
 
@@ -7621,7 +7621,7 @@ textarea.form-control-lg {
 }
 
 .start-11 {
-  left: 40% !important;
+  left: 85% !important;
 }
 
 .start-0 {
@@ -7636,7 +7636,7 @@ textarea.form-control-lg {
   left: 100% !important;
 }
 
-.end-25 {
+.end-2 {
   right: 12% !important;
 }
 
@@ -7645,7 +7645,7 @@ textarea.form-control-lg {
 }
 
 .end-11 {
-  right: 40% !important;
+  right: 85% !important;
 }
 
 .end-0 {
@@ -13923,6 +13923,10 @@ nav {
   width: 100%;
   z-index: 1111;
 }
+nav h1, nav .h1 {
+  padding: 0px;
+  width: 10vw;
+}
 nav .button {
   display: none;
 }
@@ -13943,6 +13947,9 @@ nav .right-nav label {
 }
 nav .right-nav .label {
   display: flex;
+}
+nav .right-nav .close {
+  display: none;
 }
 nav .right-nav button {
   background-color: rgb(246, 191, 108);
@@ -13975,6 +13982,15 @@ nav .right-nav .liste .span {
 }
 
 @media (max-width: 433px) {
+  .button {
+    right: 55px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a i {
+    color: #fff;
+  }
   nav {
     width: 100vw;
   }
@@ -13983,14 +13999,20 @@ nav .right-nav .liste .span {
     flex-direction: row-reverse;
     gap: 15px;
   }
+  nav .right-nav .close {
+    display: flex;
+  }
+  nav .right-nav .open {
+    display: none;
+  }
   nav .right-nav input:checked ~ .liste {
     display: flex;
   }
-  nav .right-nav input:checked + label {
+  nav .right-nav input:checked ~ .open {
+    display: flex;
+  }
+  nav .right-nav input:checked + .close {
     display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
   }
   nav .right-nav label {
     display: flex;
@@ -14002,10 +14024,10 @@ nav .right-nav .liste .span {
     display: none;
     flex-direction: column;
     position: fixed;
+    align-items: start;
     top: 50px;
-    left: 0vw;
-    width: 95%;
-    padding: 100px;
+    left: 0.5vw;
+    width: 88%;
     margin-inline-start: 18px;
     padding-bottom: 800px;
     align-items: flex-start;
@@ -14060,6 +14082,16 @@ body {
 }
 
 @media (max-width: 433px) {
+  .first .h1 {
+    padding-left: 25px;
+    padding-bottom: 25px;
+    width: fit-content;
+  }
+  .first .h2 {
+    padding-left: 0px;
+    padding-bottom: 25px;
+    width: 70vw;
+  }
   .first img {
     width: 130vw;
   }
@@ -14122,24 +14154,21 @@ body {
   opacity: 0.5;
 }
 
-.item1 {
+.first-item {
   display: flex;
+  padding: 50px;
+  gap: 20px;
 }
-.item1 .image {
-  padding-top: 130px;
-}
-.item1 .text {
+.first-item .caption {
   display: flex;
-  align-items: start;
   flex-direction: column;
-  padding-bottom: 180px;
-  padding-inline-start: 580px;
-}
-
-.b {
+  align-items: start;
   color: #fff;
 }
-.b::after {
+.first-item .caption .b {
+  color: #fff;
+}
+.first-item .caption .b::after {
   content: "";
   position: absolute;
   display: block;
@@ -14147,8 +14176,7 @@ body {
   height: 3px;
   background: yellow;
 }
-
-strong::after {
+.first-item .caption strong::after {
   content: "";
   position: absolute;
   display: block;
@@ -14157,6 +14185,22 @@ strong::after {
   background: yellow;
 }
 
+@media (max-width: 433px) {
+  .sixth {
+    height: 150vh;
+  }
+  .first-item {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .first-item h1, .first-item .h1 {
+    padding-left: 0px;
+  }
+  .first-item img {
+    height: 50vh;
+    width: 20vw;
+  }
+}
 .third {
   display: flex;
   flex-direction: column;
@@ -14319,6 +14363,14 @@ h6, .h6 {
     width: 95vw;
   }
 }
+.Ninth {
+  background-image: url(../images/chefs-bg.jpg);
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: 100%;
+  height: 105vh;
+}
+
 .tenth {
   background-image: url(../images/testimonials-bg.jpg);
   background-position: cover;
@@ -14420,7 +14472,7 @@ h6, .h6 {
 }
 .Eleventh .input input {
   width: 61.5vw;
-  width-padding: 10px;
+  padding: 10px;
 }
 .Eleventh input {
   width: 30vw;
@@ -14441,6 +14493,45 @@ h6, .h6 {
   background: rgb(255, 160, 18);
 }
 
+@media (max-width: 433px) {
+  .Eleventh {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .Eleventh .input input {
+    width: 80vw;
+  }
+  .Eleventh form textarea {
+    width: 80vw;
+  }
+  .Eleventh form button {
+    width: 50vw;
+  }
+  .Eleventh h1, .Eleventh .h1 {
+    width: 100%;
+    padding-left: 150px;
+  }
+  .Eleventh ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Eleventh ul li {
+    width: 50vw;
+  }
+  .Eleventh ul p {
+    padding-inline-start: 0px;
+  }
+  .Eleventh .form {
+    flex-direction: column;
+  }
+  .Eleventh .form input {
+    width: 80vw;
+  }
+}
 footer {
   display: flex;
   align-items: center;
@@ -14483,6 +14574,18 @@ footer i:hover {
   color: #fff;
 }
 
+@media (max-width: 433px) {
+  footer {
+    width: 100%;
+    padding: 30px;
+  }
+  footer h1, footer .h1 {
+    padding-left: 160px;
+  }
+  footer .h2 p {
+    padding-inline: 3vw;
+  }
+}
 .collapse {
   display: flex;
   gap: 150px;
@@ -14533,7 +14636,16 @@ footer i:hover {
 .cart {
   display: flex;
 }
+.cart .text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 
+.fifth .main {
+  display: flex;
+  align-items: center;
+}
 .fifth h1, .fifth .h1 {
   display: flex;
   gap: 15px;
@@ -14547,11 +14659,13 @@ footer i:hover {
   align-items: center;
 }
 .fifth .cards {
-  padding-inline: 200px;
+  width: 70vw;
 }
 .fifth p {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  width: 100%;
 }
 .fifth p .btn {
   width: 20vw;
@@ -14564,15 +14678,26 @@ footer i:hover {
   .cart {
     flex-direction: column;
   }
+  .fifth h1, .fifth .h1 {
+    padding: 0px;
+    width: 100%;
+  }
+  .fifth .main {
+    flex-direction: column;
+    align-items: start;
+  }
   .fifth i {
     padding-inline: 13px;
     padding-left: 10px;
   }
   .fifth .cards {
-    padding-inline: 0px;
+    width: 100vw;
+  }
+  .fifth p {
+    width: 90%;
   }
   .fifth p .btn {
-    width: 100vw;
+    width: 80vw;
   }
   .fifth .cart {
     width: 320px;

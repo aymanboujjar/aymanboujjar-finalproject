@@ -14,38 +14,66 @@
         background: rgb(0,0 ,0)
         opacity: 0.5
 
-.item1
+
+.first-item
     display: flex
-    
-    .image
-        padding-top: 130px
-    
-    .text
+    padding: 50px
+    gap: 20px
+    .caption
         display: flex
-        align-items: start
         flex-direction: column
-        padding-bottom: 180px
-        padding-inline-start: 580px 
+        align-items: start
+        
+        color: #fff
+        .b
+            color: #fff
+            &::after
+                content: ""
+                position: absolute
+                display: block
+                width: 2.5vw
+                height: 3px
+                background: yellow
+        strong
+            &::after
+                content: ""
+                position: absolute
+                display: block
+                width: 2vw
+                height: 3px
+                background: yellow
+@media ( max-width: 433px )
+    .sixth
+        height: 150vh
+    .first-item
+        h1
+            padding-left: 0px
+        flex-direction: column
+        padding: 10px
+        img
+            height: 50vh
+            width: 20vw
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           
 
     
-.b
-    color: #fff
-    &::after
-        content: ""
-        position: absolute
-        display: block
-        width: 2.5vw
-        height: 3px
-        background: yellow
-strong
-    &::after
-        content: ""
-        position: absolute
-        display: block
-        width: 2vw
-        height: 3px
-        background: yellow
+
 
         
         
