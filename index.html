@@ -8,9 +8,9 @@
 
 </head>
 <body>
-    <nav>
+    <nav >
 
-        <div class="left-nav"><a href=""><h1>Delicious</h1></a></div>
+        <div  class="left-nav"><a href=""><h1>Delicious</h1></a></div>
             <div class="right-nav">
               <input type="checkbox" " name="check" id="check">
               <label for="check">
@@ -21,13 +21,13 @@
                     <img src="./public/images/icon-close.svg" alt="">
                   </label>
 
-                    <li><a href=""><span>home</span></a></li>
+                    <li><a href="#first"><span>home</span></a></li>
                     <li><a href="#second">about</a></li>
-                    <li><a href="">menu</a></li>
-                    <li><a href="">specials</a></li>
+                    <li><a href="#third">menu</a></li>
+                    <li><a href="#fourth">specials</a></li>
                     <li><a href="#sixth">event</a></li>
-                    <li><a href="">chefs</a></li>
-                    <li><a href="">gallery</a></li>
+                    <li><a href="#Ninth">chefs</a></li>
+                    <li><a href="#eighth">gallery</a></li>
                     <li class="nav-item dropdown">
                         <a class="span nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown
@@ -39,7 +39,7 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li><a href="">contact</a></li>
+                    <li><a href="#Eleventh">contact</a></li>
                 </ul>
                 <button type="button">book a table</button>
             </div>
@@ -53,8 +53,8 @@
             </div>
             <div class="carousel-inner ">
               <div class="carousel-item active ">
-                <img height="800" src="./public/images/slide-1.jpg" class="d-block w-100 " alt="...">
-                <div class="carousel-caption d-none d-md-block p-7  px-5 ">
+                <img height="800" src="./public/images/slide-1.jpg" alt="...">
+                <div class="carousel-caption  ">
                   <h1 class=" p-5"> <span class=" text-color">Delicious</span> Restaurant</h1>
                   <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
 
@@ -67,8 +67,8 @@
                 </div>
               </div>
               <div class="carousel-item  ">
-                <img height="800" src="./public/images/slide-2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block p-7  px-5">
+                <img height="800" src="./public/images/slide-2.jpg" alt="...">
+                <div class="carousel-caption ">
                   <h1 class=" p-5">  Lorem Ipsum Dolor</h1>
                     <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                     <div class="mainbtn">
@@ -79,8 +79,8 @@
                 </div>
               </div>
               <div class="carousel-item  ">
-                <img height="800" src="./public/images/slide-3.jpg" class="d-block w-100  " alt="...">
-                <div class="carousel-caption d-none d-md-block p-6  px-5">
+                <img height="800" src="./public/images/slide-3.jpg"  alt="...">
+                <div class="carousel-caption  ">
                   <h1 class=" p-5"> Sequi ea ut et est quaerat</h1>
                     <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                     <div class="mainbtn">
@@ -92,17 +92,12 @@
               </div>
              
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          
           </div>
     </section>
     <section class="second" id="second">
+      <button class="button"><a href="#first"><i class="bi bi-arrow-up-circle"></i></a> </button>
+
         <video width="600" height="400" controls poster ="./public/images/about.jpg ">
             <source src="./public/video/COSTA RICA IN 4K 60fps HDR (ULTRA HD).mp4" type="video/mp4">
           </video>
@@ -122,6 +117,7 @@
     </section>
     <section class="third" id="third" >
         <h1>Why choose <span>Our Restaurant</span></h1>
+        <h6>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</h6>
         <div class="cards">
 
             <div class="div-third">
@@ -143,62 +139,342 @@
             </div>
        
     </section>
-    <section class="fourth" id="fourth"></section>
-    <section class="fifth" id="fifth"></section>
-    <section class="sixth" id="sixth">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel2">
+    <section class="fourth" id="fourth"> 
+      <h1>Check our tasty <span>Menu</span></h1>
+      <div class="container">
+        <button data-bs-toggle="collapse" data-bs-target="#collapse">Show All</button>
+        <button data-bs-toggle="collapse" data-bs-target="#collapse1">Starters</button>
+        <button data-bs-toggle="collapse" data-bs-target="#collapse2">Salades</button>
+        <button data-bs-toggle="collapse" data-bs-target="#collapse3">Speciallity</button>
+      </div>
+      <div class="collapse  " id="collapse">
         
-                    <h1>Organize Your <span>Events</span> in our Restaurant</h1>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="carousel-item1"></div>
-                        <img height="500" src="./public/images/event-birthday.jpg" class="d-block w-50" alt="...">
-                        <div class="carousel-caption d-flex align-items-start w-50 p-8  flex-column position-absolute top-0 start-50 ">
-                            <h1><span>birthday party</span></h1>
-                            <b class="b">$189</b >
-                            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error qui <br> p laboriosam ipsum amet nobis libero maiores fugit non tenetur.</p>
-                            <ul class=" list-unstyled">
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            </ul>
-                            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                          </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img  height="500" src="./public/images/event-private.jpg" class="d-block w-50" alt="...">
-                        <div class="carousel-caption d-flex align-items-start w-50 p-8  flex-column position-absolute top-0 start-50 ">
-                            <h1> <span>private party</span></h1>
-                            <b class="b">$290</b>
-                            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error qui <br> p laboriosam ipsum amet nobis libero maiores fugit non tenetur.</p>
-                            <ul class=" list-unstyled">
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            </ul>
-                            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                          </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img height="500" src="./public/images/event-custom.jpg" class="d-block w-50" alt="...">
-                        <div class="carousel-caption d-flex align-items-start w-50 p-8  flex-column position-absolute top-0 start-50 ">
-                            <h1><span>coustm party</span> </h1>
-                            <strong>$99</strong>
-                            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error qui <br> p laboriosam ipsum amet nobis libero maiores fugit non tenetur.</p>
-                            <ul class=" list-unstyled">
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            </ul>
-                            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                          </div>
-                    </div>
-                </div>
-                
+        <div class="right">
+          <div class="content ">
+          <div>
+            <b><span>Lobster Bisque</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$5.95</div>
+        </div>
+        
+        <div class="content">
+          
+          <div>
+            <b><span>Lobster Bisque</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$5.95</div>
+        </div>
+        <div class="content">
+
+          <div>
+            <b><span>Lobster Bisque</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$5.95</div>
+        </div>
+        <div class="content">
+          <div>
+            <b><span>Lobster Bisque</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$5.95</div>
+        </div>
+        <div class="content">
+          <div>
+            <b><span>Lobster Bisque</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$5.95</div>
+        </div>
+        </div>
+        <div class="left">
+          <div class="content">
+          <div>
+            <b><span>Bread barrel</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$6.95</div>
+        </div>
+        <div class="content">
+          <div>
+            <b><span>Bread barrel</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$6.95</div>
+        </div>
+        <div class="content">
+          <div>
+            <b><span>Bread barrel</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$6.95</div>
+        </div>
+        <div class="content">
+          <div>
+            <b><span>Bread barrel</span></b>
+            <p>Lorem, deren, trataro, filede, nerada</p>
+          </div>
+          <div>$6.95</div>
+        </div>
+        </div>
+        </div>
+        <div class="collapse" id="collapse1">
+          <div class="right">
+            
+          <div class="content">
+            <div>
+              <b><span>Lobster Bisque</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
             </div>
-        </section>
+            <div>$5.95</div>
+          </div>
+          <div class="content">
+            <div>
+              <b><span>Lobster Bisque</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>$5.95</div>
+          </div>
+          </div>
+          <div class="left">
+          <div class="content">
+            <div>
+              <b><span>Bread barrel</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>$6.95</div>
+          </div>
+          </div>
+        </div>
+        <div class="collapse" id="collapse2">
+          <div class="right">
+            
+          <div class="content">
+            <div>
+              <b><span>Lobster Bisque</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>$5.95</div>
+          </div>
+          <div class="content">
+            <div>
+              <b><span>Lobster Bisque</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>$5.95</div>
+          </div>
+          </div>
+          <div class="left">
+          <div class="content">
+            <div>
+              <b><span>Bread barrel</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>$6.95</div>
+          </div>
+          </div>
+        </div>
+        <div class="collapse" id="collapse3">
+          <div class="right">
+            
+          <div class="content">
+            <div>
+              <b><span>Lobster Bisque</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>$5.95</div>
+          </div>
+          <div class="content">
+            <div>
+              <b><span>Lobster Bisque</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>$5.95</div>
+          </div>
+          </div>
+          <div class="left">
+          <div class="content">
+            <div>
+              <b><span>Bread barrel</span></b>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>$6.95</div>
+          </div>
+          </div>
+        </div>
+      </section>
+    <section class="fifth" id="fifth">
+      <h1>Check our <span>Specials</span></h1>
+      <i>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</i>
+      <p>
+        <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="true" aria-controls="collapseWidthExample">
+          Modi sit est
+        </button>
+        <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="true" aria-controls="collapseWidthExample">
+          Unde praesentium sed
+        </button>
+        <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="true" aria-controls="collapseWidthExample">
+          Pariatur explicabo vel
+        </button>
+        <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="true" aria-controls="collapseWidthExample">
+          Nostrum qui quasi
+        </button>
+        <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample4" aria-expanded="true" aria-controls="collapseWidthExample">
+          Iusto ut expedita aut
+
+        </button>
+      </p>
+      <div class="cards" style="min-height: 120px; ">
+        <div class="collapse-horizontal collapse show"  id="collapseWidthExample" style="">
+          <div class="card card-body " style="width: 300px;">
+            <div class="cart">
+            <div class="text">
+            <h1>Architecto ut aperiam autem id</h1>
+            <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+            <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+          </div>
+          <div class="image">
+            <img width="300px" src="./public/images/specials-1.jpg" alt="">
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- <div class=" px-7" style="min-height: 120px;"> -->
+        <div class="collapse-horizontal collapse show" id="collapseWidthExample1" style="">
+          <div class="card card-body" style="width: 300px;">
+            <div class="cart">
+              <div class="text">
+                <h1>Et blanditiis nemo veritatis excepturi</h1>
+                <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+              </div>
+              <div class="image">
+                <img width="300px" src="./public/images/specials-2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards" style="min-height: 120px; ">
+        <div class="collapse-horizontal collapse show" id="collapseWidthExample2" style="">
+          <div class="card card-body" style="width: 300px;">
+            <div class="cart">
+              <div class="text">
+              <h1>Impedit facilis occaecati odio neque aperiam sit</h1>
+              <p>Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+              <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+            </div>
+            <div class="image">
+              <img width="300px" src="./public/images/specials-3.jpg" alt="">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class=" cards" style="min-height: 120px; ">
+        <div class="collapse-horizontal collapse show" id="collapseWidthExample3" style="">
+          <div class="card card-body" style="width: 300px;">
+            <div class="cart">
+              <div class="text">
+              <h1>Impedit facilis occaecati odio neque aperiam sit</h1>
+              <p>Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+              <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+            </div>
+            <div class="image">
+              <img width="300px" src="./public/images/specials-4.jpg" alt="">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class=" cards" style="min-height: 120px; ">
+        <div class="collapse-horizontal collapse show" id="collapseWidthExample4" style="">
+          <div class="card card-body" style="width: 300px;">
+            <div class="cart">
+              <div class="text">
+              <h1>Impedit facilis occaecati odio neque aperiam sit</h1>
+              <p>Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+              <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+            </div>
+            <div class="image">
+              <img width="300px" src="./public/images/specials-5.jpg" alt="">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sixth" id="sixth">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="item1">
+              <div class="image">
+                <img  src="./public/images/event-birthday.jpg" class="d-block w-75" alt="...">
+              </div>
+            <div class="carousel-caption d-none d-md-block">
+              <div class="text">
+                <h1><span>birthday party</span></h1>
+                        <b class="b">$189</b >
+                        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error qui <br> p laboriosam ipsum amet nobis libero maiores fugit non tenetur.</p>
+                        <ul class=" list-unstyled">
+                            <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        </ul>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu </p>
+              </div>
+             
+            </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <div class="item1">
+              <div class="image">
+                <img  src="./public/images/event-private.jpg" class="d-block w-75" alt="...">
+              </div>
+            <div class="carousel-caption ">
+              <div class="text">
+                <h1> <span>private party</span></h1>
+                        <b class="b">$290</b>
+                        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error qui <br> p laboriosam ipsum amet nobis libero maiores fugit non tenetur.</p>
+                        <ul class=" list-unstyled">
+                            <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        </ul>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu </p>
+              
+            </div>
+            </div>
+          
+        </div>
+      </div>
+          <div class="carousel-item">
+            <div class="item1">
+              <div class="image">
+                <img  src="./public/images/event-custom.jpg" class="d-block w-75" alt="...">
+              </div>
+            <div class="carousel-caption ">
+              <div class="text">
+                <h1><span>coustm party</span> </h1>
+                <strong>$99</strong>
+                <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error qui <br> p laboriosam ipsum amet nobis libero maiores fugit non tenetur.</p>
+                <ul class=" list-unstyled">
+                    <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle text-warning"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                </ul>
+                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure  dolor in reprehenderit in voluptate velit esse cillum dolore eu </p>
+            </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
     <section class="seventh" id="seventh">
       <h1>Book a <span> Table</span></h1>
       <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
@@ -245,7 +521,7 @@
       <h1>Our Proffesional <span>Chefs</span></h1>
       <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
     </div>
-      <img class=" opacity-25"  width="106%" src="./public/images/chefs-bg.jpg" alt="">
+      <img class=" opacity-25 "  width="106%" src="./public/images/chefs-bg.jpg" alt="">
       <div class="row row-cols-1 row-cols-md-3 g-4 px-8 w-100 position-absolute top-11 ">
         <div class="col">
           <img src="./public/images/chefs-1.jpg" class="card-img-top" alt="...">
@@ -406,7 +682,7 @@
       </div>
     </section>
     <section class="Eleventh" id="Eleventh">
-      <h1><span>Contact</span>Us</h1>
+      <h1><span>Contact</span>  &nbsp; Us </h1>
       <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24194.891715929247!2d-74.0061377!3d40.7100586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a231d296d87%3A0xbbd59b177cc92ab2!2sNYC%20Housing%20Preservation%20and%20Development!5e0!3m2!1sen!2sma!4v1720099744659!5m2!1sen!2sma" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div>

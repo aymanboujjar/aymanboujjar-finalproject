@@ -7,6 +7,9 @@ body
     
     
 .first
+    
+    img
+        width: 100vw
     .carousel-item
         &::before
             content: ""
@@ -33,6 +36,22 @@ body
         
         &:hover
             background: rgb(255, 176, 59)
+    .carousel-caption
+        padding: 290px
+        padding-inline: 200px
+
+@media  ( max-width: 433px  )
+    .first
+        img
+            width: 130vw
+        .carousel-caption
+            padding: 200px
+            padding-inline: 15px
+        .btn
+            width: fit-content
+            padding-inline: 8px
+
+
    
 
     

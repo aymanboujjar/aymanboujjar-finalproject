@@ -1,0 +1,41 @@
+.cart
+    display: flex
+.fifth
+    h1
+        display: flex
+        gap: 15px
+        justify-content: center
+        align-items: center
+    i
+        display: flex
+        gap: 15px
+        justify-content: center
+        align-items: center
+    .cards
+        padding-inline: 200px
+    p
+        display: flex
+        flex-direction: column
+        
+        .btn
+            width: 20vw
+            &:hover
+                color: rgb(255, 176, 59)
+@media  ( max-width: 433px)
+    .cart
+        flex-direction: column
+    .fifth
+        i
+            padding-inline: 13px
+            padding-left: 10px
+        .cards
+            padding-inline:0px 
+        p
+            .btn
+                width: 100vw
+        .cart
+            width: 320px
+            flex-direction: column-reverse
+    
+            
+        

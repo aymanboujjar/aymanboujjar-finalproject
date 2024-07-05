@@ -4,6 +4,21 @@ h5
     font-family: statis
 span
     color: rgb(255, 176, 59)
+.button
+    position: fixed
+    bottom: 0 
+    right: 0
+    border-radius: 50%
+    background: #ffa012
+    padding: 10px
+    padding-inline: 15px
+    border: none
+    z-index: 999
+    a
+        text-decoration: none
+        i
+            color: #fff
+            
 
 
 
@@ -17,6 +32,8 @@ nav
     top: 0
     width: 100%
     z-index: 1111
+    .button
+        display: none
    
     
 
@@ -45,7 +62,7 @@ nav
             padding: 5px
             width: 10vw
             &:hover
-               background: rgb(255, 160, 18)
+               background: #ffa012
         
         .liste
             list-style: none
@@ -69,7 +86,11 @@ nav
                 color: white
 @media (max-width: 433px)
     nav
+        width: 100vw
         .right-nav
+            display: flex
+            flex-direction: row-reverse
+            gap: 15px
             input
                 &:checked~.liste
                     display: flex
